@@ -36,7 +36,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.6.0'
-    implementation 'com.github.feiyin0719:AFreeSvg:0.0.3'
+    compileOnly 'com.github.feiyin0719:AFreeSvg:0.0.3'
 //    implementation project(path: ':AFreeSvg')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
