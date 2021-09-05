@@ -4,6 +4,14 @@
 
 [AFreeSvg](https://github.com/feiyin0719/AFreeSvg)的kotlin扩展库（需0.0.3以上版本支持），支持使用kotlin方便快捷的创建filter gradient shape
 
+## 使用方法
+
+gradle添加jitpack仓库和依赖
+```
+ maven { url 'https://jitpack.io' }
+ implementation 'com.github.feiyin0719:AFreeSvgKtx:0.0.3'
+```
+
 
 ## 参考代码
 
