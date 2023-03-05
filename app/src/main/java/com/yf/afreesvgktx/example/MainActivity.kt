@@ -1,4 +1,4 @@
-package com.yf.afreesvg
+package com.yf.afreesvgktx.example
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

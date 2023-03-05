@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
-
+    namespace 'com.yf.afreesvgktx'
 
 
     defaultConfig {
@@ -33,17 +33,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
-    buildFeatures {
-        buildConfig = false
-    }
 }
 
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.6.0'
-    compileOnly 'com.github.feiyin0719:AFreeSvg:0.0.3'
+    compileOnly 'com.github.feiyin0719:AFreeSvg:0.0.6'
 //    implementation project(path: ':AFreeSvg')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
